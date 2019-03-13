@@ -1,7 +1,8 @@
 #!/bin/zsh
 
 # *****  pre-required 
-# intall zsh 
+# intall zsh, jq
+# sudo yum install jq -y
 # sudo yum install zsh -y
 # chsh -s $(which zsh)
 # zsh
@@ -76,6 +77,13 @@ au Bufenter *.\(html\|js\|css\) set et
 au Bufenter *.\(html\|js\|css\) set shiftwidth=2
 au Bufenter *.\(html\|js\|css\) set tabstop=2
 EOF
+
+# add fzf 
+cd ~
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+
+~/.fzf/install
+
 
 # final 
 echo '=====>> Zsh Env Install Complete.'

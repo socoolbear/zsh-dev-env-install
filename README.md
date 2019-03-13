@@ -7,14 +7,16 @@
 - zsh-completions : https://github.com/zsh-users/zsh-completions
 - autosuggestions : https://github.com/zsh-users/zsh-autosuggestions
 - syntax highlighter : https://github.com/zsh-users/zsh-syntax-highlighting
+- vimrc : https://gist.github.com/socoolbear/6b2d30aad6a2017e59a7d3971c98b382 
+- fzf : https://github.com/junegunn/fzf
 - user@hostname 표시 되도록 theme 변경
   - https://gist.github.com/socoolbear/5abf3ae4c59bbccd4733f8632b03f491
-- vimrc
-  - https://gist.github.com/socoolbear/6b2d30aad6a2017e59a7d3971c98b382 
 
 # Pre-required
 
 ```
+sudo yum install jq -y
+
 sudo yum install zsh -y
 chsh -s $(which zsh)
 zsh
