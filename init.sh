@@ -88,4 +88,5 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 # final 
 echo '=====>> Zsh Env Install Complete.'
 echo 'Do it.'
+echo 'chsh -s $(which zsh)'
 echo 'source ~/.zshrc' 
